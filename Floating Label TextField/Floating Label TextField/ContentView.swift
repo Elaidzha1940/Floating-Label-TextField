@@ -1,9 +1,13 @@
+//  /*
 //
-//  ContentView.swift
-//  Floating Label TextField
+//  Project: Floating Label TextField
+//  File: ContentView.swift
+//  Created by: Elaidzha Shchukin
+//  Date: 29.04.2023
 //
-//  Created by Elaidzha Shchukin on 29.04.2023.
+//  Status
 //
+//  */
 
 import SwiftUI
 
