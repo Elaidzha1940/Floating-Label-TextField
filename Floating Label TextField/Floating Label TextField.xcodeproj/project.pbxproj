@@ -11,6 +11,9 @@
 		E4487E7429FD82B500BC9F17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4487E7329FD82B500BC9F17 /* ContentView.swift */; };
 		E4487E7629FD82B600BC9F17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4487E7529FD82B600BC9F17 /* Assets.xcassets */; };
 		E4487E7A29FD82B600BC9F17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4487E7929FD82B600BC9F17 /* Preview Assets.xcassets */; };
+		E4487E8129FD83C100BC9F17 /* FloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4487E8029FD83C100BC9F17 /* FloatingLabelTextField.swift */; };
+		E4487E8329FD83DB00BC9F17 /* FloatingBorderLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4487E8229FD83DB00BC9F17 /* FloatingBorderLabelTextField.swift */; };
+		E4487E8529FD83F400BC9F17 /* CustomTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4487E8429FD83F400BC9F17 /* CustomTextFieldStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		E4487E7529FD82B600BC9F17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4487E7729FD82B600BC9F17 /* Floating_Label_TextField.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Floating_Label_TextField.entitlements; sourceTree = "<group>"; };
 		E4487E7929FD82B600BC9F17 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4487E8029FD83C100BC9F17 /* FloatingLabelTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingLabelTextField.swift; sourceTree = "<group>"; };
+		E4487E8229FD83DB00BC9F17 /* FloatingBorderLabelTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingBorderLabelTextField.swift; sourceTree = "<group>"; };
+		E4487E8429FD83F400BC9F17 /* CustomTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				E4487E7529FD82B600BC9F17 /* Assets.xcassets */,
 				E4487E7729FD82B600BC9F17 /* Floating_Label_TextField.entitlements */,
 				E4487E7829FD82B600BC9F17 /* Preview Content */,
+				E4487E8029FD83C100BC9F17 /* FloatingLabelTextField.swift */,
+				E4487E8229FD83DB00BC9F17 /* FloatingBorderLabelTextField.swift */,
+				E4487E8429FD83F400BC9F17 /* CustomTextFieldStyle.swift */,
 			);
 			path = "Floating Label TextField";
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4487E8329FD83DB00BC9F17 /* FloatingBorderLabelTextField.swift in Sources */,
 				E4487E7429FD82B500BC9F17 /* ContentView.swift in Sources */,
+				E4487E8129FD83C100BC9F17 /* FloatingLabelTextField.swift in Sources */,
 				E4487E7229FD82B500BC9F17 /* Floating_Label_TextFieldApp.swift in Sources */,
+				E4487E8529FD83F400BC9F17 /* CustomTextFieldStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
